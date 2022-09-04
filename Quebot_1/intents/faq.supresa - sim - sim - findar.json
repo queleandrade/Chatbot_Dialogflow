@@ -1,0 +1,40 @@
+{
+  "id": "d7b4093b-d16c-4b12-b8d4-49fe07013749",
+  "parentId": "f02375cd-2c50-481b-a477-b940af42fb6f",
+  "rootParentId": "4713e21f-b506-4b86-a7bf-5d8f24399966",
+  "name": "faq.supresa - sim - sim - findar",
+  "auto": true,
+  "contexts": [
+    "faqsupresa-sim-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqsupresa.faqsupresa-yes.faqsupresa-sim-yes.faqsupresa-sim-sim-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Somos gratos pelo seu contato e estamos aqui sempre que você precisar. Forte abraço!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

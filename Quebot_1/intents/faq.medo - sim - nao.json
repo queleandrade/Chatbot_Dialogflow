@@ -1,0 +1,40 @@
+{
+  "id": "2d0ea0c1-3ecd-4c3c-9494-d63b2c477486",
+  "parentId": "f42765e5-a9c3-418c-b0f7-4642559b81f1",
+  "rootParentId": "86f90f8c-dfc9-4582-b688-d487495caa17",
+  "name": "faq.medo - sim - nao",
+  "auto": true,
+  "contexts": [
+    "faqmedo-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqmedo.faqmedo-yes.faqmedo-sim-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Somos gratos pelo seu contato e estamos aqui sempre que você precisar. Forte abraço!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

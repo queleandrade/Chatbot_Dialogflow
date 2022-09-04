@@ -1,0 +1,45 @@
+{
+  "id": "c24d791e-35f3-432f-aa4b-971497ae6586",
+  "parentId": "c8ea9621-59ba-4336-980a-938bed17863f",
+  "rootParentId": "f9dc3dbb-a5a0-44e5-a0ba-82c67c4ccae4",
+  "name": "faq.tristeza - sim - sim - continuar",
+  "auto": true,
+  "contexts": [
+    "faqtristeza-sim-simm-followup",
+    "inicio"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqtristeza.faqtristeza-yes.faqtristeza-sim-yes.faqtristeza-sim-simm-yes",
+      "affectedContexts": [
+        {
+          "name": "inicio",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Estou aqui para te escutar, pode continuar compartilhando comigo o que está sentindo. ;)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

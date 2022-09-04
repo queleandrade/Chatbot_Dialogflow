@@ -1,0 +1,44 @@
+{
+  "id": "33d6fdbb-a523-49ab-8cc3-6e64d6b67e7a",
+  "parentId": "47dc99bc-bb94-4536-981c-2b46fb5c6159",
+  "rootParentId": "47dc99bc-bb94-4536-981c-2b46fb5c6159",
+  "name": "faq.raiva - sim",
+  "auto": true,
+  "contexts": [
+    "faqraiva-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqraiva.faqraiva-yes",
+      "affectedContexts": [
+        {
+          "name": "faqraiva-sim-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Vou te indicar a técnica mindfulness. O que é o mindfulness? \nMindfulness conhecido também como atenção plena é um método de treino mental que foca no momento presente. É praticada por uma série de meditação simples e cientificamente comprovadas que há diminuição de sintomas de ansiedade,\ndepressão, irritabilidade; melhoria dos níveis de energia; melhoria dos padrões relacionais; melhoria da autoestima; maior capacidade de gestão emocional; redução do stress crónico, incluindo hipertensão e melhoria do sistema imunitário.\nTopa conhecer uma técnica de mindfulness? Te guio passo a passo :)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

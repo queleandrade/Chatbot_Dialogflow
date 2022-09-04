@@ -1,0 +1,40 @@
+{
+  "id": "6db0737a-cd13-43f4-b918-004698d318c0",
+  "parentId": "37ea9396-4a94-4f35-957c-8ee3ef411878",
+  "rootParentId": "4c2bdc0a-622a-408b-a78c-2b8fe5eb1106",
+  "name": "faq.desgosto - sim - sim - findar",
+  "auto": true,
+  "contexts": [
+    "faqdesgosto-sim-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqdesgosto.faqdesgosto-yes.faqdesgosto-sim-yes.faqdesgosto-sim-sim-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Somos gratos pelo seu contato e estamos aqui sempre que você precisar. Forte abraço!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

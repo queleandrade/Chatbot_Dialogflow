@@ -1,0 +1,40 @@
+{
+  "id": "505ac6ab-44e2-42b9-9870-69d4a32fc61d",
+  "parentId": "0fd84f89-5902-4862-8acb-4d82383431c7",
+  "rootParentId": "f9dc3dbb-a5a0-44e5-a0ba-82c67c4ccae4",
+  "name": "faq.tristeza - sim - sim - nao",
+  "auto": true,
+  "contexts": [
+    "faqtristeza-sim-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqtristeza.faqtristeza-yes.faqtristeza-yes-yes.faqtristeza-sim-sim-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Obrigada, por essse bate papo agradavél, estou aqui para o que precisar. Volte mais vezes."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

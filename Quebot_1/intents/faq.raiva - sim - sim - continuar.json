@@ -1,0 +1,39 @@
+{
+  "id": "3172c676-2af6-4516-8a97-3e38b66ac89a",
+  "parentId": "deb47ade-390c-466b-90e9-2dd5099abae0",
+  "rootParentId": "47dc99bc-bb94-4536-981c-2b46fb5c6159",
+  "name": "faq.raiva - sim - sim - continuar",
+  "auto": true,
+  "contexts": [
+    "faqraiva-sim-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqraiva.faqraiva-yes.faqraiva-sim-yes.faqraiva-sim-sim-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Estou aqui para te escutar, pode continuar compartilhando comigo o que está sentindo. ;)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

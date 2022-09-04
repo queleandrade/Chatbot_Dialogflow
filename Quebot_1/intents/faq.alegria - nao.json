@@ -1,0 +1,40 @@
+{
+  "id": "933738c6-5ea7-43a3-a2ef-70f7d250f12c",
+  "parentId": "167d7972-2a33-434b-8ae8-9c8f139006e4",
+  "rootParentId": "167d7972-2a33-434b-8ae8-9c8f139006e4",
+  "name": "faq.alegria - nao",
+  "auto": true,
+  "contexts": [
+    "faqalegria-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqalegria.faqalegria-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Somos gratos pelo seu contato e estamos aqui sempre que você precisar. Forte abraço!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

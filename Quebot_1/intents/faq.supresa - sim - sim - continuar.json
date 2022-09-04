@@ -1,0 +1,39 @@
+{
+  "id": "c0dcf3c5-1c9d-4d43-8a65-94fbecfca3e7",
+  "parentId": "f02375cd-2c50-481b-a477-b940af42fb6f",
+  "rootParentId": "4713e21f-b506-4b86-a7bf-5d8f24399966",
+  "name": "faq.supresa - sim - sim - continuar",
+  "auto": true,
+  "contexts": [
+    "faqsupresa-sim-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqsupresa.faqsupresa-yes.faqsupresa-sim-yes.faqsupresa-sim-sim-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Estou aqui para te escutar, pode continuar compartilhando comigo o que está sentindo. ;)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "2fb87c18-e9f0-4a38-8b02-bb674271a8cb",
+  "name": "mindfulness",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

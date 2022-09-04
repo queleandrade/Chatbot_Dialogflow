@@ -1,0 +1,40 @@
+{
+  "id": "9576475c-8185-44af-9785-08d471ac1edd",
+  "parentId": "4c2bdc0a-622a-408b-a78c-2b8fe5eb1106",
+  "rootParentId": "4c2bdc0a-622a-408b-a78c-2b8fe5eb1106",
+  "name": "faq.desgosto - nao",
+  "auto": true,
+  "contexts": [
+    "faqdesgosto-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqdesgosto.faqdesgosto-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Somos gratos pelo seu contato e estamos aqui sempre que você precisar. Forte abraço!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

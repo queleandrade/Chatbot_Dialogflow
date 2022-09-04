@@ -1,0 +1,39 @@
+{
+  "id": "b1661d93-a385-412c-a50c-5823c7be2220",
+  "parentId": "4713e21f-b506-4b86-a7bf-5d8f24399966",
+  "rootParentId": "4713e21f-b506-4b86-a7bf-5d8f24399966",
+  "name": "faq.supresa - nao",
+  "auto": true,
+  "contexts": [
+    "faqsupresa-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqsupresa.faqsupresa-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Somos gratos pelo seu contato e estamos aqui sempre que você precisar. Forte abraço!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

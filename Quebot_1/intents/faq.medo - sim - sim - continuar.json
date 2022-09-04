@@ -1,0 +1,44 @@
+{
+  "id": "413274dd-6a43-4867-9c51-76d7dff4077e",
+  "parentId": "3b559ee4-f0b4-4294-9687-391c71076f27",
+  "rootParentId": "86f90f8c-dfc9-4582-b688-d487495caa17",
+  "name": "faq.medo - sim - sim - continuar",
+  "auto": true,
+  "contexts": [
+    "faqmedo-sim-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqmedo.faqmedo-yes.faqmedo-sim-yes.faqmedo-sim-sim-yes",
+      "affectedContexts": [
+        {
+          "name": "faqmedo-sim-sim-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Estou aqui para te escutar, pode continuar compartilhando comigo o que está sentindo. ;)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

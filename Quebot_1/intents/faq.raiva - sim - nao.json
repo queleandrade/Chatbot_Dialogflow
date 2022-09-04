@@ -1,0 +1,39 @@
+{
+  "id": "85f34173-5e1c-4bbb-aa43-0f560f27e574",
+  "parentId": "33d6fdbb-a523-49ab-8cc3-6e64d6b67e7a",
+  "rootParentId": "47dc99bc-bb94-4536-981c-2b46fb5c6159",
+  "name": "faq.raiva - sim - nao",
+  "auto": true,
+  "contexts": [
+    "faqraiva-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqraiva.faqraiva-yes.faqraiva-sim-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Somos gratos pelo seu contato e estamos aqui sempre que você precisar. Forte abraço!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

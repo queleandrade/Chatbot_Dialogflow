@@ -1,0 +1,40 @@
+{
+  "id": "86f90f8c-dfc9-4582-b688-d487495caa17",
+  "name": "faq.medo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "faqmedo-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Entendo o que está sentindo no momento e por isso indico, o apoio e orientação de um médico, não podemos abrir mão de um contato humano que são super essenciais hoje em dia. Eu sou um robozinho, posso te ajudar, mas os humanos entendem você melhor que eu hahaha. Mas, até lá posso te indicar uma técnica chamada mindfulness que irá amenizar o que você está sentindo. Aceita?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

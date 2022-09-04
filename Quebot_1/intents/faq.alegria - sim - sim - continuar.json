@@ -1,0 +1,39 @@
+{
+  "id": "df0a053e-0a63-47a9-9cb3-bc95e3e8c284",
+  "parentId": "2b646192-122e-4d77-a9d1-eebb56633288",
+  "rootParentId": "167d7972-2a33-434b-8ae8-9c8f139006e4",
+  "name": "faq.alegria - sim - sim - continuar",
+  "auto": true,
+  "contexts": [
+    "faqalegria-sim-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqalegria.faqalegria-yes.faqalegria-sim-yes.faqalegria-sim-sim-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Estou aqui para te escutar, pode continuar compartilhando comigo o que está sentindo. ;)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

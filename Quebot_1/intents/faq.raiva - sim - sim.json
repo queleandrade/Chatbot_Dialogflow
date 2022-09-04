@@ -1,0 +1,50 @@
+{
+  "id": "deb47ade-390c-466b-90e9-2dd5099abae0",
+  "parentId": "33d6fdbb-a523-49ab-8cc3-6e64d6b67e7a",
+  "rootParentId": "47dc99bc-bb94-4536-981c-2b46fb5c6159",
+  "name": "faq.raiva - sim - sim",
+  "auto": true,
+  "contexts": [
+    "faqraiva-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqraiva.faqraiva-yes.faqraiva-sim-yes",
+      "affectedContexts": [
+        {
+          "name": "faqraiva-sim-sim-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "BODY SCAN- Melhora a consciência do corpo e de suas sensações. Siga os seguintes passos: \n1. Concentre-se em seu abdômen – em como ele se expande e contrai.\n2. Quando estiver pronto, mande seu foco para seus pés.\n3. Observe qualquer sensação ou falta dela.\n4. Agora imagine sua respiração entrando em seus pés, enchendo-os com ar.\n5. Enquanto você expira, imagine o ar saindo dos seus pés, deixando-os vazios.\nFaça o Body Scan algumas vezes. Se seus pensamentos se dispersarem, mantenha sua atenção na respiração para centralizar sua mente e, então, traga-os sua atenção de volta. Respire enquanto ainda estiver focado e deixe que qualquer\nconsciência se dissolva ao expirar. \nPosso te ajudar em mais alguma coisa?",
+            "OBSERVAÇÃO DOS SONS - O esforço é não adicionar nada ao presente momento, estando ciente do que está acontecendo, sem se perder com qualquer coisa que surgir. Siga os seguintes passos: \n1. Sentado ou deitado, feche os olhos e preste atenção nos sons e ruídos ao seu redor.\n2. Veja o zumbido frequente em seu ouvido. Imagine ele como uma linha fixa.\n3. Então repare outros sons, como o barulho de carros, conversas, pássaros, do\nvento etc.\n4. Imagine cada um deles em uma faixa diferente de seu cérebro.\n5. Permaneça observando até sua mente se acalmar e você começar a perceber\npequenos detalhes sonoros mais distantes e mais baixos se tornarem nítidos.\n6. Esta meditação ajuda a acalmar a mente e a ativar os sentidos.\n7. Aprenda a desfrutar da prática. Assim que estiver pronto, aprecie o quão\ndiferente o corpo e a mente se sentem.\nPosso te ajudar em mais alguma coisa?",
+            "FAÇA ALONGAMENTOS - A meditação “movimentos de atenção plena” envolve uma série de alongamentos simples, que deixam sua mente ligada em seu corpo. Siga os seguintes passos: \n1. Mantenha-se ereto, mas relaxado, com seus braços ao lado, descalço ou de meias.\n2. Respire e levante lentamente ambos os braços para o lado, paralelos ao chão.\n3. Expire.\n4. Em sua próxima inalação, levante seus braços ao alto, até que eles estejam acima\nda sua cabeça.\n5. Alongue para cima, mantendo os pés firmes no chão e sem nenhuma tensão em\nseu corpo.\n6. Lentamente comece a abaixar seus braços, enquanto expira, seguindo o mesmo\npadrão de antes. \nPosso te ajudar em mais alguma coisa?",
+            "FOQUE EM SUA RESPIRAÇÃO - Esse exercício vai facilitar seu treinamento de atenção. Siga os seguintes passos: \n1. Sente-se ou deite-se em uma posição relaxada.\n2. Feche seus olhos e se concentre nos lugares que seu corpo está tocando na cadeira (ou no chão).\n3. Faça isso por alguns minutos até que esteja consciente do seu corpo e de como ele se sente.\n4. Agora tente relaxar por completo.\nPosso te ajudar em mais alguma coisa?",
+            "FOCO NOS SONS -  Siga os seguintes passos: \n1. Escolhe um lugar onde te possas sentar e relaxar durante um bocado. Pode ser em casa, na rua ou no carro. Fecha os olhos, se ajudar, e faz três respirações profundas. \n2. Durante 1 minuto (podes colocar um cronómetro) foca toda a tua atenção nos sons que ouves à tua volta. Tenta identificar todos os sons que conseguires. \n3. Podes fazer disto um jogo se quiseres, e quando abrires tentares registar o máximo de sons que captaste. Podes depois repetir, vendo se conseguiste identificar mais sons. \nPosso te ajudar em mais alguma coisa?",
+            "FOCO NA MÚSICA - Siga os seguintes passos: \n1. Põe fones e escolhe uma música\npara pores a tocar. Convém ser uma música com uma forte componente instrumental ou que não conheças bem ou não percebas a letra, para não te distraíres demasiado com a letra. \n2. Foca toda a tua atenção nos vários aspetos da\nmúsica: que instrumentos identificas? Quais são as partes mais graves e agudas? Qual o timbre da voz do cantor? Quando há mudanças de ritmo? Foca toda a atenção em cada pequeno pormenor da música. \nPosso te ajudar em mais alguma coisa?",
+            "FAÇA PEQUENAS PAUSAS -  Elas são necessárias, principalmente depois de momentos importantes. Encaixar um compromisso direto no outro, sem um mínimo de intervalo, é pedir para a cabeça se embaralhar. Separe um tempo para para digerir acontecimentos e conversas, planejar próximos passos e refletir. O dia não te pareceu mais possível e leve assim? Antes de dormir, volte a notar sua respiração, seu corpo e existência. Você mesma agradece. \nPosso te ajudar em mais alguma coisa?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

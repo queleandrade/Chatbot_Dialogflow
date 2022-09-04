@@ -1,0 +1,39 @@
+{
+  "id": "4a02e34b-4ba4-4d6c-a013-ebee909507c6",
+  "parentId": "0fd84f89-5902-4862-8acb-4d82383431c7",
+  "rootParentId": "f9dc3dbb-a5a0-44e5-a0ba-82c67c4ccae4",
+  "name": "faq.tristeza - sim - sim - sim",
+  "auto": true,
+  "contexts": [
+    "faqtristeza-sim-sim-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "faqtristeza.faqtristeza-yes.faqtristeza-yes-yes.faqtristeza-sim-sim-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Pode compartilhar mais comigo do que posso estar podendo ajudar ;)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
